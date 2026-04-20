@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 10px;
+
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    background: url(./station.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+    margin-bottom: 5px;
+    padding: 10px;
+    
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    
+    width: 200px;
+
+}
+
+#increment-btn {
+    background: darkred;
+}
