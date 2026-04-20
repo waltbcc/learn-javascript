@@ -1,20 +1,9 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// initialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
+
+function increment() {
+    console.log ("The button was clicked");   
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-h1 {
-    font-size: 32px;
-    color: #000000;
-}
-
-h2 {
-    font-size: 24px;
-}
